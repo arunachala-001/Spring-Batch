@@ -28,3 +28,7 @@ resources/products.csv
 [Step 1] FlatFileItemReader → MySQL RepositoryItemWriter
         ↓
 [Step 2] RepositoryItemReader (MySQL) → ItemProcessor (MySQL Entity → MongoDB Document) → MongoRepositoryItemWriter (MongoDB)
+
+
+## 🧑‍💻 Author
+Arunachalam S - www.linkedin.com/in/arunachalam-s-javadeveloper
