@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: spring-batch
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/spring-batch
+    username: root
+    password: ArunJava001
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+#  MongoDB properties
+  data:
+    mongodb:
+      uri: mongodb+srv://arun:SunJava123@arun.l7wpi.mongodb.net/?retryWrites=true&w=majority&appName=arun
+      database: products
+
+  batch:
+    jdbc:
+      initialize-schema: always
+
+    job:
+      enabled: false
